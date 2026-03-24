@@ -1,0 +1,43 @@
+
+// ── CASO 1: Falta punto y coma ──────────────────────────────
+// Se declara una variable pero se omite el ';' al final.
+var nombre = "Fernando"
+
+// ── CASO 2: Paréntesis sin cerrar ───────────────────────────
+// La condición del if no tiene el ')' de cierre.
+if (nombre == "Fernando" {
+    var saludo = "hola";
+}
+
+// ── CASO 3: Falta paréntesis de apertura ────────────────────
+// El while no tiene '(' después de la palabra clave.
+while x < 10) {
+    x = x + 1;
+}
+
+// ── Código correcto intercalado (debe parsearse bien) ───────
+var contador = 0;
+
+if (contador >= 0) {
+    contador = contador + 1;
+}
+
+// ── CASO 4: Falta llave de apertura en función ──────────────
+// La función no tiene '{' para iniciar el bloque.
+def sumar(a, b)
+    return a + b;
+}
+
+// ── CASO 5: Expresión incompleta ────────────────────────────
+// Operador '+' sin operando derecho.
+var resultado = 10 + ;
+
+// ── CASO 6: Token inesperado en declaración ─────────────────
+// Se usa un número donde debería ir un nombre de variable.
+var 123 = "error";
+
+// ── Código correcto al final (debe parsearse bien) ──────────
+var total = 100;
+while (total > 0) {
+    total = total - 10;
+}

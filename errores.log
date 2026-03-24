@@ -1,0 +1,17 @@
+Reporte de Errores - Compilador con Modo Pánico
+Fecha: 2026-03-23 20:24:15
+Archivo analizado: casos_prueba.txt
+=======================================================
+
+Errores Sintácticos (8):
+  1. Error [Línea 14, Col 1]: Se esperaba ';' después de la declaración de variable (se encontró 'if' [IF]).
+  2. Error [Línea 16, Col 1]: Se esperaba una expresión, se encontró '}' [LLAVE_DER].
+  3. Error [Línea 20, Col 7]: Se esperaba '(' después de 'while' (se encontró 'x' [IDENTIFICADOR]).
+  4. Error [Línea 22, Col 1]: Se esperaba una expresión, se encontró '}' [LLAVE_DER].
+  5. Error [Línea 34, Col 5]: Se esperaba '{' para iniciar el bloque (se encontró 'return' [RETURN]).
+  6. Error [Línea 35, Col 1]: Se esperaba una expresión, se encontró '}' [LLAVE_DER].
+  7. Error [Línea 39, Col 22]: Se esperaba una expresión, se encontró ';' [PUNTO_Y_COMA].
+  8. Error [Línea 43, Col 5]: Se esperaba un nombre de variable después de 'var' (se encontró '123' [NUMERO]).
+
+=======================================================
+Total de errores: 8
